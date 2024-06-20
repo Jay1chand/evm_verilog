@@ -1,0 +1,337 @@
+$date
+	Thu Jun 20 18:24:05 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb_voting_machine $end
+$var wire 6 ! t_result_3 [5:0] $end
+$var wire 6 " t_result_2 [5:0] $end
+$var wire 6 # t_result_1 [5:0] $end
+$var reg 1 $ t_candidate_1 $end
+$var reg 1 % t_candidate_2 $end
+$var reg 1 & t_candidate_3 $end
+$var reg 1 ' t_clk $end
+$var reg 1 ( t_rst $end
+$var reg 1 ) t_vote_over $end
+$scope module uut $end
+$var wire 1 ' clk $end
+$var wire 1 $ i_candidate_1 $end
+$var wire 1 % i_candidate_2 $end
+$var wire 1 & i_candidate_3 $end
+$var wire 1 ) i_voting_over $end
+$var wire 1 ( rst $end
+$var parameter 2 * finish $end
+$var parameter 2 + hold $end
+$var parameter 2 , idle $end
+$var parameter 2 - vote $end
+$var reg 32 . o_count1 [31:0] $end
+$var reg 32 / o_count2 [31:0] $end
+$var reg 32 0 o_count3 [31:0] $end
+$var reg 32 1 r_cand1_prev [31:0] $end
+$var reg 32 2 r_cand2_prev [31:0] $end
+$var reg 32 3 r_cand3_prev [31:0] $end
+$var reg 32 4 r_counter_1 [31:0] $end
+$var reg 32 5 r_counter_2 [31:0] $end
+$var reg 32 6 r_counter_3 [31:0] $end
+$var reg 4 7 r_hold_count [3:0] $end
+$var reg 2 8 r_next_state [1:0] $end
+$var reg 2 9 r_present_state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 -
+b0 ,
+b10 +
+b11 *
+$end
+#0
+$dumpvars
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+b0 4
+bx 3
+bx 2
+bx 1
+b0 0
+b0 /
+b0 .
+0)
+1(
+1'
+0&
+0%
+0$
+b0 #
+b0 "
+b0 !
+$end
+#5
+0'
+#10
+1'
+#15
+0'
+#20
+b1 8
+b0 3
+b0 2
+b0 1
+1'
+0(
+#25
+0'
+#30
+b1 1
+b1 9
+1'
+1$
+#35
+0'
+#40
+b10 8
+b1 4
+b0 1
+1'
+0$
+#45
+0'
+#50
+b10 9
+b1 8
+1'
+#55
+0'
+#60
+b1 2
+b1 9
+b1 7
+1'
+1%
+#65
+0'
+#70
+b0 2
+b10 8
+b1 5
+1'
+0%
+#75
+0'
+#80
+b1 8
+b10 9
+1'
+#85
+0'
+#90
+b1 1
+b1 9
+b10 7
+1'
+1$
+#95
+0'
+#100
+b10 8
+b10 4
+b0 1
+1'
+0$
+#105
+0'
+#110
+b10 9
+b1 8
+1'
+#115
+0'
+#120
+b1 3
+b1 9
+b11 7
+1'
+1&
+#125
+0'
+#130
+b0 3
+b10 8
+b1 6
+1'
+0&
+#135
+0'
+#140
+b1 8
+b10 9
+1'
+#145
+0'
+#150
+b1 2
+b1 9
+b100 7
+1'
+1%
+#155
+0'
+#160
+b10 8
+b10 5
+b0 2
+1'
+0%
+#165
+0'
+#170
+b10 9
+b1 8
+1'
+#175
+0'
+#180
+b1 2
+b1 9
+b101 7
+1'
+1%
+#185
+0'
+#190
+b0 2
+b10 8
+b11 5
+1'
+0%
+#195
+0'
+#200
+b1 8
+b10 9
+1'
+#205
+0'
+#210
+b1 1
+b1 9
+b110 7
+1'
+1$
+#215
+0'
+#220
+b10 8
+b11 4
+b0 1
+1'
+0$
+#225
+0'
+#230
+b10 9
+b1 8
+1'
+#235
+0'
+#240
+b1 3
+b1 9
+b111 7
+1'
+1&
+#245
+0'
+#250
+b0 3
+b10 8
+b10 6
+1'
+0&
+#255
+0'
+#260
+b1 8
+b10 9
+1'
+#265
+0'
+#270
+b1 9
+b1000 7
+1'
+#275
+0'
+#280
+b10 !
+b11 "
+b11 #
+b11 8
+b10 0
+b11 /
+b11 .
+1'
+1)
+#285
+0'
+#290
+1'
+#295
+0'
+#300
+1'
+#305
+0'
+#310
+1'
+#315
+0'
+#320
+1'
+#325
+0'
+#330
+b0 !
+b0 "
+b0 #
+b0 7
+b0 0
+b0 /
+b0 .
+b0 9
+1'
+1(
+#335
+0'
+#340
+b0 8
+b0 6
+b0 5
+b0 4
+1'
+#345
+0'
+#350
+1'
+#355
+0'
+#360
+1'
+#365
+0'
+#370
+1'
+#375
+0'
+#380
+1'
+#385
+0'
